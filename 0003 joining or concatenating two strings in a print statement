@@ -1,0 +1,4 @@
+print("Hello"+"World")
+#output: HelloWorld , these are two different strings concatenated together.
+print("Hello"+" "+"World")
+#output: Hello World , these are three different strings joined together
