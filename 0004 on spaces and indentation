@@ -1,0 +1,8 @@
+python is a space sensitive language.
+in a single line program, we have been starting to type from the very beggining of each line. 
+if we intentionally add a space before the statement ( that is at a place in a program where that space should not be) we'll get an error which says
+IndentationError: unexpecte indent
+and our program will fail to run and we won't get our desired output. 
+the process will finish with exit code 1
+this error is happens in python because python uses space to identify where a function starts and where a function ends. 
+python probably(will confirm later) does not use curly/squgly brackets to define the limits of a function like java or c++
