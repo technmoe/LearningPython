@@ -1,8 +1,26 @@
 the input function looks prtty much identical to the print function but instead of the word print it got the word input
 eg, a print function : print("hey, who are you?")
 eg, an input function: input("hey, who are you?")
-the difference is that after you run a single line program of an input function you don't get the final line
+and instead of writing what text will be printed we are adding a prompt for the user to respond to.
+another difference is that after you run a single line program of an input function you don't get the final line
 "process finished with exit code 0" 
 line unless you give the program an input (given you don't have an error, if you did have an error you'd get the error information and 
 "process finished with exit code 1" 
 line
+print("Hello" + " " + input("what is your name?")+"!")
+interestingly in the code above the input() function gets called first , so the output would be like:
+#what is your name?TechNMoe
+#Hello TechNMoe!
+#
+#Process finished with exit code 0
+here in line 12 TechNMoe was my response.
+if i add a next line symbol \n at the end of the prompt in input() the user input would appear in next line
+print("Hello" + " " + input("what is your name?\n")+"!") 
+for this the output would be:
+#what is your name?
+#TechNMoe
+#Hello TechNMoe!
+#
+#Process finished with exit code 0
+here also the first TechNMoe was my response but it got accepted in the next line.
+
