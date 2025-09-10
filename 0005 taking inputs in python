@@ -1,4 +1,4 @@
-the input function looks prtty much identical to the print function but instead of the word print it got the word input
+The input function looks prtty much identical to the print function but instead of the word print it got the word input
 eg, a print function : print("hey, who are you?")
 eg, an input function: input("hey, who are you?")
 and instead of writing what text will be printed we are adding a prompt for the user to respond to.
@@ -24,3 +24,9 @@ for this the output would be:
 #Process finished with exit code 0
 here also the first TechNMoe was my response but it got accepted in the next line.
 
+Why the prompt in the input() prints first is because the compiler steps-in the code and checks what it needs to do first,
+in this case the prompt of the input() was the deepest it could get and after executing it the compiler would then step up in the code to execute it.
+the value given to the input() prompt would replace the input() before the print() gets executed. 
+this will continue untill there are no more instructions left. 
+
+the instructor recommends thonny a free software to help visualise this.
