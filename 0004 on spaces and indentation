@@ -7,3 +7,6 @@ the process will finish with exit code 1
 this error is happens in python because python uses space to identify where a function starts and where a function ends. 
 python probably(will confirm later) does not use curly/squgly brackets to define the limits of a function like java or c++
 this error can happen because of accidentally pressing the space key or the tab key.
+innterestingly if we give space between function name and round brackets () the program will still run. 
+though we'll recieve a warning by the compiler because it is not the best practice. 
+another time we previously got a warning and not an error was when we left the cursor an the line we have written the statement on and not on a empty next line after the end of the program.
