@@ -6,3 +6,4 @@ and our program will fail to run and we won't get our desired output.
 the process will finish with exit code 1
 this error is happens in python because python uses space to identify where a function starts and where a function ends. 
 python probably(will confirm later) does not use curly/squgly brackets to define the limits of a function like java or c++
+this error can happen because of accidentally pressing the space key or the tab key.
