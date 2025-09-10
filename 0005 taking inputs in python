@@ -1,0 +1,8 @@
+the input function looks prtty much identical to the print function but instead of the word print it got the word input
+eg, a print function : print("hey, who are you?")
+eg, an input function: input("hey, who are you?")
+the difference is that after you run a single line program of an input function you don't get the final line
+"process finished with exit code 0" 
+line unless you give the program an input (given you don't have an error, if you did have an error you'd get the error information and 
+"process finished with exit code 1" 
+line
