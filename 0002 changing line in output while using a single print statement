@@ -1,1 +1,2 @@
 print("Hello world!\nHello world!\nHello world!")
+use "\n" in print/input function to change line
