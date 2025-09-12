@@ -14,3 +14,5 @@ there are certain keywords or privilidge words that we can not use as a variable
 the compiler keeps thinking that user is trying to invoke the input or print function etc. even if your program runs. it is a really bad practice. don't do it. 
 
 if you have setup a variable name. the variable name needs to be consistent accross the program/code, even the case. python is a case sensitive language.
+so if you have previously used the variable name "game" and at a later part you accidently type "Game" at a place trying to get the value of name you'll get a name error
+ 
