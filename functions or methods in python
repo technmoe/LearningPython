@@ -1,0 +1,3 @@
+print() helps print a message to the screen
+input() helps print a message to the screen and take input fro user
+len() helps get the length of a string or a input(?)
