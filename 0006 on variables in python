@@ -1,8 +1,13 @@
 Variables is a concept in programming that allows us to give a label to a piece of data so that we can refer or reference that data using the chosen variable name.
 
-for the most part variable in python are like variables in any other programming language.
+for the most part variable in python work like variables in any other programming language.
 so unless you change the value of a variable by some means, the value for thevariables remains same
 and unless you force the value of a variable to be something at a specific place it would change after being assigned a new value.
+
+a different thing i noticed is that python does not force me to declare the variable as an integer or float or boolean or string or double
+just name the variable and give it a value. that's it(?)
+one thing to note is that whatever value you are providing to the variable name, the value should be in it's proper type's syntax.
+that is, a string value should look like a string, in programming a string (data type)(of characters) appears in doubble quotes
 
 while naming a variable, remember to name it in a way so you can understand it after coming back to it few years later
 you can not have space in the name of the varibale, you can use underscore instead.
