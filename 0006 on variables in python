@@ -18,3 +18,6 @@ the compiler keeps thinking that user is trying to invoke the input or print fun
 if you have setup a variable name. the variable name needs to be consistent accross the program/code, even the case. python is a case sensitive language.
 so if you have previously used the variable name "game" and at a later part you accidently type "Game" at a place trying to get the value of name you'll get a name error
  
+Choose simple words that are less likely to become typos
+
+if you work at a company use the guidelines set up by your company regarding naming variables.
