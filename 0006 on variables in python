@@ -1,1 +1,16 @@
+for the most part variable in python are like variables in any other programming language.
+so unless you change the value of a variable by some means, the value for thevariables remains same
+and unless you force the value of a variable to be something at a specific place it would change after being assigned a new value.
 
+while naming a variable, remember to name it in a way so you can understand it after coming back to it few years later
+you can not have space in the name of the varibale, you can use underscore instead.
+variable name "user name" does not work
+variable name "user_name" works fine
+you can use numbers in the name of the variable but numbers or digits can't be in the begginning of the name of the variables.
+variable name "12abcd" does not work (this generates a syntax error)
+variable name "abcd12" & "a1bcd2" work
+
+there are certain keywords or privilidge words that we can not use as a variable name like print and input. it is confusing for the reader and the compiler when a coder uses keywords as variable nemes, 
+the compiler keeps thinking that user is trying to invoke the input or print function etc. even if your program runs. it is a really bad practice. don't do it. 
+
+if you have setup a variable name. the variable name needs to be consistent accross the program/code, even the case. python is a case sensitive language.
