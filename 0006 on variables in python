@@ -1,4 +1,11 @@
 Variables is a concept in programming that allows us to give a label to a piece of data so that we can refer or reference that data using the chosen variable name.
+we use variable to store data which we migh need to refer to in future.
+we type the name of the variable at the begining of the line or wherever the program's indentation requires you to have the variable name start from and assign the value you need to assign (or have input by user) the variable name after a single = (equals) sign.
+after that you can use the variable anywhere in the code just by using the name of the variable.
+
+just because you set the value of a name to something does not mean it can not be used for any other value. remember it can be changed and that is why the name is called a variable.
+
+
 
 for the most part variable in python work like variables in any other programming language.
 so unless you change the value of a variable by some means, the value for thevariables remains same
