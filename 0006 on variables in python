@@ -1,3 +1,5 @@
+Variables is a concept in programming that allows us to give a label to a piece of data so that we can refer or reference that data using the chosen variable name.
+
 for the most part variable in python are like variables in any other programming language.
 so unless you change the value of a variable by some means, the value for thevariables remains same
 and unless you force the value of a variable to be something at a specific place it would change after being assigned a new value.
