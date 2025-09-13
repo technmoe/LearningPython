@@ -1,7 +1,16 @@
+
+DATA TYPES
+
 string -------
 integer      |----- important and basic data types
 floats       |
 boolean-------
+
+In python each function expects to work with a specific set of data tyes so there are only certain data types that can go into the parenthesis of a prticular function(and have the program still work and not throw an error).
+in python there is a function called type() which is used to check the data type of any piece of data or variable
+print(type("hello")) 
+#output: <class 'str'>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 STRING
 
@@ -10,6 +19,7 @@ ouput: 123456   # got concatenated
 a string is declared in double quotes
 
 a string data type conatins a bunch of characters strunged together. in python a string can be identified by having double quotes around it. 
+any data which has double quote around it in a python program is considered a string.
 since we know that string is a collection of characters we can pull out any of the character from the string and add any new or old character snywhere in the string.
 the position of a character is called an index.
 the index of a string in python starts from 0 (zero)
