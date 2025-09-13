@@ -127,12 +127,21 @@ print(False)
 TYPE CONVERION (TYPE CASTING)
 
 you do this if you want to change the data type of some piece of information or a variable.
+we can use this method to convert things into all of the four major data types
+
+int()  #  to convert valid data to an integer data type
+float()  #  to convert valid data to a float data type
+str()  # to convert valid data to a string data type
+bool()  #  to convert valid data to a boolean data type
+
 print(int("123"+"456")
 #output:  579
 
-
 though, it is dangerous because sometimes you can't convert things into a different datatype.
+
 print(int("abc"+"123")
 #output: ValueError
 
 "abc" can't be converted into an integer.
+
+
