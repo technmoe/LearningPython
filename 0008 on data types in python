@@ -9,7 +9,7 @@ boolean-------
 In python each function expects to work with a specific set of data tyes so there are only certain data types that can go into the parenthesis of a prticular function(and have the program still work and not throw an error).
 in python there is a function called type() which is used to check the data type of any piece of data or variable
 
-print(type("hello")) #doing this is called TYPE CHECKING
+print(type("hello")) #doing this is called >>>TYPE CHECKING<<<
 
 #output: <class 'str'>
 
@@ -25,6 +25,8 @@ print(type(True))
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 STRING
+
+<class 'str'>
 
 print("123" + "345")
 ouput: 123456   # got concatenated
@@ -57,6 +59,9 @@ good thing that the syntax here is simpler
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INTEGER
+
+<class 'int'>
+
 integer is the most common number data type in programming languages.
 Python can declare Whole numbers positive or negative as integers.
 in pythin, in order to create or declare a number as an integer data type all you have to do is write the number without anything else.
@@ -85,6 +90,9 @@ print(1_2_3)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FLOAT (floating point number)
+
+<class 'float'>
+
 it is called a floating point because the decimal point (in a random list of float type numbers) could be at any position in between/at the start of the number.
 so, like, it floats, literally, like in water
 314.59 #float data type
@@ -100,6 +108,9 @@ print(3.14159)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 BOOLEAN
+
+<class 'bool'>
+
 this only has two possible values: True or False
 notice how the first character of both the value is in uppercase and
 they dont have any quotation mark around them otherwise it would become a string.
@@ -108,3 +119,20 @@ they dont have any quotation mark around them otherwise it would become a string
 # Boolean
 print(True)
 print(False)
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TYPE CONVERION (TYPE CASTING)
+
+you do this if you want to change the data type of some piece of information or a variable.
+print(int("123"+"456")
+#output:  579
+
+
+though, it is dangerous because sometimes you can't convert things into a different datatype.
+print(int("abc"+"123")
+#output: ValueError
+
+"abc" can't be converted into an integer.
