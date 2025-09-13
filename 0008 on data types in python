@@ -8,7 +8,9 @@ boolean-------
 
 In python each function expects to work with a specific set of data tyes so there are only certain data types that can go into the parenthesis of a prticular function(and have the program still work and not throw an error).
 in python there is a function called type() which is used to check the data type of any piece of data or variable
-print(type("hello")) 
+
+print(type("hello")) #doing this is called TYPE CHECKING
+
 #output: <class 'str'>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
