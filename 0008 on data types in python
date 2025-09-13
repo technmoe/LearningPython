@@ -1,0 +1,88 @@
+string -------
+integer      |----- important and basic data types
+floats       |
+boolean-------
+
+STRING
+
+print("123" + "345")
+ouput: 123456   # got concatenated
+a string is declared in double quotes
+
+a string data type conatins a bunch of characters strunged together. in python a string can be identified by having double quotes around it. 
+since we know that string is a collection of characters we can pull out any of the character from the string and add any new or old character snywhere in the string.
+the position of a character is called an index.
+the index of a string in python starts from 0 (zero)
+
+print("Hello"[0]) will output H
+print("Hello[4]") will output o
+
+there is also another way of printing the last characterof the string if you do not wish to count till the last character use the negative sign!
+
+print("Hello"[-1]) will output o
+print("Hello"[-2]) will output l
+
+when counting from the end of the string, [-1] indicates the last character of the string
+
+
+This method of pulling out a perticular charater from the string is called SUBSCRIPTING
+
+
+
+Python uses square bracket after the string to subscript. like how many programming language can also treat a string as an array.
+good thing that the syntax here is simpler
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INTEGER
+integer is the most common number data type in programming languages.
+Python can declare Whole numbers positive or negative as integers.
+in pythin, in order to create or declare a number as an integer data type all you have to do is write the number without anything else.
+
+a=123    #integer declared
+b=-123    # integer declared
+
+
+
+# Integer = Whole number
+print(123 + 345)
+output: 468   # got added
+
+in python we can use the english arithmatic system to make the visualisation easier by using unnderscores to split the number in between the thousands instead of commas
+when an integer has underscores in python the computer removes the underscore and treats it line any other integer so the benifit is only for humans to help visualize easier
+
+# Large Integers
+print(123_456_789)    # the number is 123,456,789 or one hundred twenty three million four hundred fifty six thousand and seven hundred eighty nine
+# output: 123456789 # the computer interpreted the number 123_456_789 as if 123456789 was written
+
+print(1_2_3) 
+# output: 123 Yes, this works too!
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FLOAT (floating point number)
+it is called a floating point because the decimal point (in a random list of float type numbers) could be at any position in between/at the start of the number.
+so, like, it floats, literally, like in water
+314.59 #float data type
+31.459 #float data type
+3.1459 #float data type
+.31359 #float data type
+
+
+# Float = Floating Point Number
+print(3.14159)
+
+314.1259_32874_8990 #is also a float
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BOOLEAN
+this only has two possible values: True or False
+notice how the first character of both the value is in uppercase and
+they dont have any quotation mark around them otherwise it would become a string.
+
+
+# Boolean
+print(True)
+print(False)
