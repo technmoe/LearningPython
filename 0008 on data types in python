@@ -12,6 +12,16 @@ in python there is a function called type() which is used to check the data type
 print(type("hello")) #doing this is called TYPE CHECKING
 
 #output: <class 'str'>
+
+print(type(12345))
+print(type("12345"))
+print(type(12345.34))
+print(type(True))
+
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 STRING
