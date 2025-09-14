@@ -12,10 +12,10 @@ though it may look like multiplication has a higher priority than division and a
 
 
 # PEMDASLR Order
-# ()
-# **
-# * OR /
-# + OR -
+# ()       #higher priority
+# **               |
+# * OR /           V
+# + OR -   #lower priority
 
 in python after the PENDAS when the program encounters operations with similar level of priority the one at the LEFT gets priority. so LEFT Than RIGHT, thus the LR at the end
 
@@ -35,6 +35,12 @@ print(6/3)
 # the output value is a Float data type
 print(5/3)
 #output: 1.6666666666666667
+print(type(4/2)
+#<class 'float'>
+whenever you are dividing things like this in python you always end up with a floating point number, even though 4 is divided by 2 cleanly the ouput still is 2.0 
+this is because of something python does by default which is called Implicit Type Casting.
+so python is implicitly converting the result here in a floating point number.
+and sometimes you might not want that, so for this python has // type of division
   
 // DIVISION with two forward slashes
 
@@ -44,7 +50,9 @@ print(6/2)
 print(5//2)
 #output: 1 
 #the output of double forward slashes operation will take the output from single forward slash operation and remove the decimal point and everything after it. it does not even round off the value.
-
+#so unless you are sure that there would be nothing of value after the decimal point even if the ouput is 1.999999999 do not use the // divide operation. this especially has horrendous results when used in scientific calculations.
+print(type(4//2)
+#<class 'int'>
 
 + ADDITION
 
@@ -60,6 +68,15 @@ print(4-1)
 
 
 () PRENTHESES
+parenthesis have the highest priority in the PEMDASLR rule, so parenthesis gets solved first
+
+print(3 * 3 + 3 / 3 - 3)
+#output: 7
+
+so including parenthesis can get you a different result like below
+
+print(3 * (3 + 3) / 3 - 3)
+#output: 3
 
 
 
