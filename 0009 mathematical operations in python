@@ -1,1 +1,66 @@
+Mathematical operations in python follow the PEMDAS rule
+that is, 
+parentheses(), exponents(a**b), multiplication(a*b), division(a/b)(a//b), addition(a+b), subtraction(a-b)
+                                                             |__________|
+                                                                  |
+                                                these are not the same types of division
+
+() ** * / // + -
+
+though it may look like multiplication has a higher priority than division and additiion has higher priority than substraction, that is in fact NOT the case.
+
+
+# PEMDASLR Order
+# ()
+# **
+# * OR /
+# + OR -
+
+in python after the PENDAS when the program encounters operations with similar level of priority the one at the LEFT gets priority. so LEFT Than RIGHT, thus the LR at the end
+
+
+
+* MULTIPLICATION
+
+To multiply in python the * (asterisk) symbol is used. 
+print(2*2)
+#output: 6
+
+
+/ DIVISION
+
+print(6/3)
+#output: 2.0
+# the output value is a Float data type
+print(5/3)
+#output: 1.6666666666666667
+  
+// DIVISION with two forward slashes
+
+print(6/2)
+#output:2
+#the ouput value is a Integer data type
+print(5//2)
+#output: 1 
+#the output of double forward slashes operation will take the output from single forward slash operation and remove the decimal point and everything after it. it does not even round off the value.
+
+
++ ADDITION
+
+aside from joining strings inside print() and input() functions obviously + operaator is also used to add values of integers, float data types etc
+
+
+- SUBSTRACTION
+
+
+
+() PRENTHESES
+
+
+
+** EXPONENTS
+
+To give a variable a power of something ** (double asterisks) are used
+print(2**3)
+#output: 8
 
