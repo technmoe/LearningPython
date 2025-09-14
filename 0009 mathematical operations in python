@@ -7,6 +7,7 @@ parentheses(), exponents(a**b), multiplication(a*b), division(a/b)(a//b), additi
 
 () ** * / // + -
 
+
 though it may look like multiplication has a higher priority than division and additiion has higher priority than substraction, that is in fact NOT the case.
 
 
@@ -51,6 +52,10 @@ aside from joining strings inside print() and input() functions obviously + oper
 
 
 - SUBSTRACTION
+to do the substraction operation in python - (minus) symbol is used
+print(4-1)
+#output: 3
+
 
 
 
